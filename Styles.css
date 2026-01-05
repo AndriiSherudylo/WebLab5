@@ -145,3 +145,16 @@ img.ElementInMainContainer {
     display: flex;
     justify-content: space-between; /* Лого зліва, Меню справа */
 }
+
+@media screen and (max-width: 480px) {
+    .GridContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Робимо всі блоки на повну ширину */
+    .item1, .item2, .item3, .item4, .item5, .item6 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
