@@ -7,6 +7,10 @@ html, body {
     margin: 10px;
 }
 
+#FormOfAddingImagesContainer {
+    display: none;
+}
+
 .GridContainer {
     display: grid;
     grid-template-columns: 10% 80% 10%;
@@ -168,3 +172,4 @@ img.ElementInMainContainer {
         margin-bottom: 10px;
     }
 }
+

@@ -16,12 +16,10 @@ function FindAreaOfDiamond() {
 
     document.getElementById("Result").textContent = `Area Of Diamond: ${S}`;
 
-    //console.log(S);
-
 } FindAreaOfDiamond();
 
 let numbersArray = [];
-let n = 3; // Кількість значень згідно з умовою завдання
+let n = 10;
 document.getElementById("Button_AddNumberInArray").onclick = function () {
     const input = document.getElementById("InputBox_Number");
     const label = document.getElementById("Label_Array");
@@ -77,24 +75,17 @@ window.onload = function () {
         applyColorToBorders(savedColor);
         colorInput.value = savedColor;
     }
+
+    const GalleryString = localStorage.getItem('Gallery');
+    let GalleryArray = [];
+
+    if (GalleryString !== null) GalleryArray = JSON.parse(GalleryString);
+    GalleryArray.forEach(url => {
+        renderImage(url, document.querySelector('.item1'));
+    });
 };
 
-//colorInput.onfocus = function () {
-//    // 1. Отримуємо колір, який зараз обраний в інпуті
-//    const chosenColor = colorInput.value;
-
-//    // 2. Фарбуємо всі блоки 1-6
-//    for (let i = 1; i <= 6; i++) {
-//        document.querySelector(`.item${i}`).style.borderColor = chosenColor;
-//    }
-
-//    // 3. Записуємо цей вибір у пам'ять браузера
-//    localStorage.setItem('savedColor', chosenColor);
-//};
-
 const colorInput = document.getElementById('InputBox_Color');
-
-// Це і є функція, яка спрацьовує ПРИ ФОКУС
 colorInput.onfocus = function () {
 
     console.log(`${colorInput.value}_1`);
@@ -102,7 +93,6 @@ colorInput.onfocus = function () {
 
     applyColorToBorders(colorInput.value);
 };
-
 function applyColorToBorders(color) {
     const items = document.querySelectorAll('.Header, .MainContainer, .Footer, .item1, .item3, .item4');
     items.forEach(item => {
@@ -110,3 +100,42 @@ function applyColorToBorders(color) {
         item.style.borderColor = color;
     });
 };
+
+
+
+document.getElementById("TextToHighlight").onmouseup = function () {
+    document.getElementById("FormOfAddingImagesContainer").style.display = `block`
+}
+
+document.getElementById("Button_AddImage").onclick = function () {
+
+    let input = document.getElementById("InputBox_LinkOfImage");
+
+    renderImage(input.value, document.querySelector('.item4'));
+
+    const GalleryString = localStorage.getItem('Gallery');
+    let GalleryArray = [];
+
+    if (GalleryString !== null) GalleryArray = JSON.parse(GalleryString);
+
+    GalleryArray.push(input.value);
+    localStorage.setItem('Gallery', JSON.stringify(GalleryArray));
+
+    input.value = "";
+}
+
+document.getElementById("Button_DeleteAllImages").onclick = function () {
+    localStorage.removeItem('Gallery');
+
+    const imagesInBlock1 = document.querySelectorAll('.item1 .DynamicImage');
+
+    imagesInBlock1.forEach(img => img.remove());
+}
+
+function renderImage(url, container) {
+    const imgHTML = `
+            <div class="DynamicImage" style="margin-top:10px;">
+                <img src="${url}" style="width: 100%; border: 1px solid black">
+            </div>`;
+    container.insertAdjacentHTML('beforeend', imgHTML);
+}
