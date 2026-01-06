@@ -94,7 +94,7 @@ window.onload = function () {
 
 const colorInput = document.getElementById('InputBox_Color');
 
-// Це і є функція, яка спрацьовує ПРИ ФОКУСІ
+// Це і є функція, яка спрацьовує ПРИ ФОКУС
 colorInput.onfocus = function () {
 
     console.log(`${colorInput.value}_1`);
