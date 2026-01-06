@@ -9,7 +9,7 @@ html, body {
 
 .GridContainer {
     display: grid;
-    grid-template-columns: 15% 80% 5%;
+    grid-template-columns: 10% 80% 10%;
     grid-template-areas:
         "sidebar header  header"
         "sidebar content aside"
@@ -145,6 +145,18 @@ img.ElementInMainContainer {
     display: flex;
     justify-content: space-between; /* Лого зліва, Меню справа */
 }
+
+.ButtonWithOnFocus {
+    margin-top: 10px;
+    width: 50px;
+    height: 25px;
+    background-color: #4CAF50;
+    border: 2px solid black;
+    text-align: center;
+}
+    .ButtonWithOnFocus h2 {
+        margin: 0px;
+    }
 
 @media screen and (max-width: 480px) {
     .GridContainer {

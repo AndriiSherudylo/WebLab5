@@ -55,8 +55,6 @@ document.getElementById("FindMinAndMax").onclick = function () {
 };
 
 window.onload = function () {
-    alert(`Cookies:` + document.cookie);
-
     if (document.cookie) {
 
         document.getElementById("ArrayContainer").style.display = 'none';
@@ -73,4 +71,42 @@ window.onload = function () {
             alert("Cookies are preserved. To restore the form, you must reload the page.");
         }
     }
+
+    const savedColor = localStorage.getItem('BorderColor');
+    if (savedColor) {
+        applyColorToBorders(savedColor);
+        colorInput.value = savedColor;
+    }
+};
+
+//colorInput.onfocus = function () {
+//    // 1. Отримуємо колір, який зараз обраний в інпуті
+//    const chosenColor = colorInput.value;
+
+//    // 2. Фарбуємо всі блоки 1-6
+//    for (let i = 1; i <= 6; i++) {
+//        document.querySelector(`.item${i}`).style.borderColor = chosenColor;
+//    }
+
+//    // 3. Записуємо цей вибір у пам'ять браузера
+//    localStorage.setItem('savedColor', chosenColor);
+//};
+
+const colorInput = document.getElementById('InputBox_Color');
+
+// Це і є функція, яка спрацьовує ПРИ ФОКУСІ
+colorInput.onfocus = function () {
+
+    console.log(`${colorInput.value}_1`);
+    localStorage.setItem('BorderColor', colorInput.value);
+
+    applyColorToBorders(colorInput.value);
+};
+
+function applyColorToBorders(color) {
+    const items = document.querySelectorAll('.Header, .MainContainer, .Footer, .item1, .item3, .item4');
+    items.forEach(item => {
+        // Змінюємо колір рамки для самого блока
+        item.style.borderColor = color;
+    });
 };

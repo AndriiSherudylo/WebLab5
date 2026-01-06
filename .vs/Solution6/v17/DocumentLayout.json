@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\KPI\\2 \u043A\u0443\u0440\u0441\\\u0412\u0435\u0431\\\u043B\u0430\u04315\\Solution6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KPI\\2 \u043A\u0443\u0440\u0441\\\u0412\u0435\u0431\\\u043B\u0430\u04315\\Solution6\\Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KPI\\2 \u043A\u0443\u0440\u0441\\\u0412\u0435\u0431\\\u043B\u0430\u04315\\Solution6\\Styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KPI\\2 \u043A\u0443\u0440\u0441\\\u0412\u0435\u0431\\\u043B\u0430\u04315\\Solution6\\Script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KPI\\2 \u043A\u0443\u0440\u0441\\\u0412\u0435\u0431\\\u043B\u0430\u04315\\Solution6\\Page3_Contacts.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Page3_Contacts.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KPI\\2 \u043A\u0443\u0440\u0441\\\u0412\u0435\u0431\\\u043B\u0430\u04315\\Solution6\\Page2_General.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Page2_General.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KPI\\2 \u043A\u0443\u0440\u0441\\\u0412\u0435\u0431\\\u043B\u0430\u04315\\Solution6\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\KPI\\2 \u043A\u0443\u0440\u0441\\\u0412\u0435\u0431\\\u043B\u0430\u04315\\Solution6\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "D:\\KPI\\2 \u043A\u0443\u0440\u0441\\\u0412\u0435\u0431\\\u043B\u0430\u04315\\Solution6\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-01-06T10:52:16.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Styles.css",
+              "DocumentMoniker": "D:\\KPI\\2 \u043A\u0443\u0440\u0441\\\u0412\u0435\u0431\\\u043B\u0430\u04315\\Solution6\\Styles.css",
+              "RelativeDocumentMoniker": "Styles.css",
+              "ToolTip": "D:\\KPI\\2 \u043A\u0443\u0440\u0441\\\u0412\u0435\u0431\\\u043B\u0430\u04315\\Solution6\\Styles.css",
+              "RelativeToolTip": "Styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-06T10:52:16.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Script.js",
+              "DocumentMoniker": "D:\\KPI\\2 \u043A\u0443\u0440\u0441\\\u0412\u0435\u0431\\\u043B\u0430\u04315\\Solution6\\Script.js",
+              "RelativeDocumentMoniker": "Script.js",
+              "ToolTip": "D:\\KPI\\2 \u043A\u0443\u0440\u0441\\\u0412\u0435\u0431\\\u043B\u0430\u04315\\Solution6\\Script.js",
+              "RelativeToolTip": "Script.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-06T10:52:15.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Page3_Contacts.html",
+              "DocumentMoniker": "D:\\KPI\\2 \u043A\u0443\u0440\u0441\\\u0412\u0435\u0431\\\u043B\u0430\u04315\\Solution6\\Page3_Contacts.html",
+              "RelativeDocumentMoniker": "Page3_Contacts.html",
+              "ToolTip": "D:\\KPI\\2 \u043A\u0443\u0440\u0441\\\u0412\u0435\u0431\\\u043B\u0430\u04315\\Solution6\\Page3_Contacts.html",
+              "RelativeToolTip": "Page3_Contacts.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-01-06T10:52:15.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Page2_General.html",
+              "DocumentMoniker": "D:\\KPI\\2 \u043A\u0443\u0440\u0441\\\u0412\u0435\u0431\\\u043B\u0430\u04315\\Solution6\\Page2_General.html",
+              "RelativeDocumentMoniker": "Page2_General.html",
+              "ToolTip": "D:\\KPI\\2 \u043A\u0443\u0440\u0441\\\u0412\u0435\u0431\\\u043B\u0430\u04315\\Solution6\\Page2_General.html",
+              "RelativeToolTip": "Page2_General.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-01-06T10:52:15.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\KPI\\2 \u043A\u0443\u0440\u0441\\\u0412\u0435\u0431\\\u043B\u0430\u04315\\Solution6\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "D:\\KPI\\2 \u043A\u0443\u0440\u0441\\\u0412\u0435\u0431\\\u043B\u0430\u04315\\Solution6\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-01-06T10:52:12.458Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1349,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
